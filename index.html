@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My page</title>
+    <link rel="stylesheet" href="./my_resume.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="sticky">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./my_resume_img/logo_new.png" alt="Logo" height="50">
+                </a>
+
+                <!-- Sidebar Toggle Button (hamburger) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Center Menu (desktop) -->
+                <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#PortFolio">PortFolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Resume">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right Side -->
+                <div class="d-none d-lg-block">
+                    <a href="mailto:coderhimanshu07@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope" style="font-size:40px; color:#EA4335;"></i>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Offcanvas Sidebar -->
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#PortFolio">PortFolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Resume">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                        <li class="nav-item"><a href="mailto:coderhimanshu07@gmail.com" target="_blank">
+                                <i class="fa-solid fa-envelope" style="font-size:40px; color:#EA4335;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Body part starts there  -->
+
+    <!-- Home section -->
+    <section id="Home">
+        <div id="bodyDIV">
+            <div class="row intro">
+                <div class="col-7 intro-text pt-5">
+                    <div class="my_world">
+                        <h2 class="text-secondary">WELCOME TO MY <span style="color:red;">WORLD</span></h2>
+                    </div>
+                    <div class="name">
+                        <h3>Hi, I'm Himanshu <br>a <span class="dynamic"></span></h3>
+                        <div class="about-text">
+                            <p>Full-stack Developer /<span class="text-danger"> MERN-Stack Developer</span> passionate
+                                about crafting elegant and efficient solutions to
+                                complex problems.
+                                Proficient in Backend (MySQL, PhP, MongoDB, MariaDB, etc) <br>
+                                Eager to contribute to innovative projects and continuously expand my skill set.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5" id="intro-img">
+                    <img id="my_image" src="./my_resume_img/himanshu.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- main body section -->
+
+    <div id="GetinTouch">
+        <p class="text-white">GET IN TOUCH</p>
+        <div id="social">
+            <a href="http://instagram.com/_er.himanshu_" target="_blank"><img
+                    src="https://cdn-icons-png.flaticon.com/128/174/174855.png" height="45px" width="45px"
+                    alt="instgram"></a>
+            <a href="https://x.com/coder_himanshu_" target="_blank"><img
+                    src="https://images.freeimages.com/image/large-previews/f35/x-twitter-logo-on-black-circle-5694247.png"
+                    height="50px" width="50px" alt="X"></a>
+            <a href="https://www.linkedin.com/in/himanshu-sharma-b418bb34b/" target="_blank"><img
+                    src="https://cdn3.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_linkedin-512.png"
+                    height="50px" width="50px" alt="X"></a>
+        </div>
+        <hr class="m-0">
+    </div>
+
+
+    <!-- Features section -->
+
+    <section id="Features" class="bg-white mainbody">
+        <div id="whatido">
+            <h4>Features</h4>
+            <h2><span>WHAT I DO </h2></span>
+        </div>
+
+        <!-- Grid there -->
+        <div id="cards" class="row">
+            <div class="card mycard col-12 col-md-6 col-lg-3">
+                <div class="card-body p-3">
+                    <h4 class="card-title text-center pt-4"><img src="./my_resume_img/SEO.png" width="70px" height="70px" alt=""></i>
+                    </h4>
+                    <h3 class="card-text p-0 text-center">SEO optimisation</h3>
+                    <p style="font-weight: 400; text-align: justify;" class="pt-0">Your website visibility matters.
+                        Our
+                        SEO solutions will help you reach the top of search results and stay ahead!</p>
+                </div>
+            </div>
+
+            <div class="card mycard col-12 col-md-6 col-lg-3">
+                <div class="card-body p-3">
+                    <h4 class="card-title text-center pt-4 pb-3"><i class="fa-solid fa-pen-fancy"
+                            style="font-size: 50px;"></i>
+                    </h4>
+                    <h3 class="card-text p-0 text-center">Ui/Ux Design</h3>
+                    <p style="font-weight: 400; text-align: justify;" class="pt-0">User experience drives success.
+                        Our
+                        UX design ensures seamless journeys that keep visitors engaged and returning!
+                    </p>
+                </div>
+            </div>
+
+            <div class="card mycard col-12 col-md-6 col-lg-3">
+                <div class="card-body p-3">
+                    <h4 class="card-title text-center pt-4 pb-3"><i class="fas fa-bars" style="font-size: 50px;"></i>
+                    </h4>
+                    <h3 class="card-text p-0 text-center">Business Stratagy</h3>
+                    <p style="font-weight: 400; text-align: justify;" class="pt-0">We craft smart strategies to grow
+                        your business, boost efficiency, and guide you toward long-term success!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- portfolio section -->
+
+
+
+
+    <section id="PortFolio" class="mainbody ">
+        
+    <div class="container Heading heading2 text-white mb-3">
+        <h2><span>My portfolio</span></h2>
+        <p>Visit my portfolio and keep your feedback</p>
+    </div>
+
+        <div id="parent-container">
+            <div class="cards bg-white"> <!--Card 1-->
+                <div class="img-container">
+                    <img src="./my_resume_img/ecom.png" alt="">
+                </div>
+
+                <div class="p-4 pt-0">
+                    <div class="category">
+                        <span class="aim">
+                            <p>E-commerce</p>
+                        </span>
+                        <p>&#9825; 1594</p>
+                    </div>
+
+                    <div class="title">
+                        Build powerful online stores with secure payment gateways, smooth checkout experiences, and
+                        scalable features to grow your digital business.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards bg-white"> <!--Card 2-->
+                <div class="img-container">
+                    <img src="./my_resume_img/land.webp" alt="">
+                </div>
+
+                <div class="p-4 pt-0">
+                    <div class="category">
+                        <span class="aim">
+                            <p>Landing pages</p>
+                        </span>
+                        <p>&#9825; 1594</p>
+                    </div>
+
+                    <div class="title">
+                        High-converting landing pages designed to capture leads, increase engagement, and boost your
+                        sales with a clean and modern layout.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards bg-white"> <!--Card 3-->
+                <div class="img-container">
+                    <img src="./my_resume_img/webapp.png" alt="">
+                </div>
+
+                <div class="p-4 pt-0">
+                    <div class="category">
+                        <span class="aim">
+                            <p>Web Applications</p>
+                        </span>
+                        <p>&#9825; 1594</p>
+                    </div>
+
+                    <div class="title">
+                        Custom web applications tailored to your business needs with responsive design, advanced
+                        functionality, and seamless user experience.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards bg-white"> <!--Card 4-->
+                <div class="img-container">
+                    <img src="./my_resume_img/state2.avif" alt="">
+                </div>
+
+                <div class="p-4 pt-0">
+                    <div class="category">
+                        <span class="aim">
+                            <p>Static Websites</p>
+                        </span>
+                        <p class="like">&#9825; 1594</p>
+                    </div>
+
+                    <div class="title">
+                        Static websites are lightweight, fast, and secure, making them perfect for businesses, personal
+                        portfolios, blogs, or product showcases. They don’t rely on complex databases.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards bg-white"> <!--Card 5-->
+                <div class="img-container">
+                    <img src="./my_resume_img/corp.webp" alt="">
+                </div>
+
+                <div class="p-4 pt-0">
+                    <div class="category">
+                        <span class="aim">
+                            <p>Corporate</p>
+                        </span>
+                        <p>&#9825; 1594</p>
+                    </div>
+
+                    <div class="title">
+                        Professional corporate websites that establish your brand authority, showcase your services, and
+                        strengthen your online presence.
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards bg-white"> <!--Card 6-->
+                <div class="img-container">
+                    <img src="./my_resume_img/eL.webp" alt="">
+                </div>
+                <div class="p-4 pt-0">
+                    <div class="category">
+                        <span class="aim">
+                            <p>E-Learning</p>
+                        </span>
+                        <p>&#9825; 1594</p>
+                    </div>
+
+                    <div class="title">
+                        Interactive e-learning platforms with course management, student dashboards, and engaging
+                        learning experiences for online education.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Resume there -->
+    <div class="Heading">
+        <h2 class=""><span>About Me</span></h2>
+        <p class="text-secondary">A snapshot of my skills, education
+            &
+            experience</p>
+    </div>
+
+    <section id="Resume" class="bg-white mainbody">
+
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="glass-card">
+                            <div class="container-fluid p-3 card_head">
+                                <h3>Education</h3>
+                            </div>
+                            <div class="card_body">
+                                <ul>
+                                    <li>
+                                        <h4 class="edu_item mt-2"><strong>Bachelor of Computer Applications</strong>
+                                        </h4>
+                                        <ul>
+                                            <li>Indira Gandhi National Open University</li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item mt-2"><strong>+2 Engineering</strong></h4>
+                                        <ul>
+                                            <li>
+                                                Central Board of Secondary Education
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item mt-2"><strong>Matriculation</strong></h4>
+                                        <ul>
+                                            <li>
+                                                Central Board of Secondary Education
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                        <div class="glass-card">
+                            <div class="container-fluid p-3 card_head">
+                                <h3>Certificates</h3>
+                            </div>
+                            <div class="card_body">
+                                <ul>
+                                    <li>
+                                        <h4 class="edu_item mt-2"><strong>Full Stack Web Developer</strong></h4>
+                                        <ul>
+                                            <li>National Institute of Electronics and Information Technology
+                                                (N.I.E.L.I.T)</li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Cloud Computing Professionals</strong></h4>
+                                        <ul>
+                                            <li>
+                                                National Association of Software and Service Companies
+                                                (N.A.S.S.C.O.M)
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Python Developer</strong></h4>
+                                        <ul>
+                                            <li>
+                                                OpenWeaver
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                        <div class="glass-card">
+                            <div class="container-fluid p-3 card_head">
+                                <h3>Skills</h3>
+                            </div>
+                            <div class="card_body">
+                                <ul>
+                                    <li>
+                                        <h4 class="edu_item mt-2"><strong>Programming Languages</strong></h4>
+                                        <ul class="Skills_li Skills_li1">
+                                            <li>HTML</li>
+                                            <li>Css</li>
+                                            <li>Js</li>
+                                            <li>SQL</li>
+                                            <li>Php</li>
+                                            <li>Python</li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Frontend Technologies</strong></h4>
+                                        <ul class="Skills_li">
+                                            <li>Bootstrap</li>
+                                            <li>Tailwind</li>
+                                            <li>React Js</li>
+                                            <li>WordPress</li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Backend Technologies</strong></h4>
+                                        <ul class="Skills_li">
+                                            <li>MySQL</li> <br>
+                                            <li>Maria DB</li>
+                                            <li>MongoDB</li>
+                                            <li>Node Js</li>
+                                            <li>Amazon VPC</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 4 -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                        <div class="glass-card">
+                            <div class="container-fluid p-3 card_head">
+                                <h3>Experience</h3>
+                            </div>
+                            <div class="card_body">
+                                <ul>
+                                    <li>
+                                        <h4 class="edu_item mt-2"><strong>Solutions Architecture Job
+                                                Simulation</strong></h4>
+                                        <ul>
+                                            <li>AWS<a
+                                                    href="./certificate/AWS architecture solution.pdf" target="_blank"
+                                                    class="experience">view
+                                                    Certificate</a></li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Cyber Job Simulation</strong></h4>
+                                        <ul>
+                                            <li>
+                                                Deloitte <a href="./certificate/Deloitte intern.pdf" target="_blank"
+                                                    class="experience">view Certificate</a>
+
+                                                <!-- <img src="./deloitte-1.svg" class="fs-1" alt="" height="40px" width="90px" style="float: right; padding-right: 45px;"> -->
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Technology Apprenticeship Job
+                                                Simulation</strong></h4>
+                                        <ul>
+                                            <li>
+                                                Accenture <a href="./certificate/technology apprentiship.pdf"
+                                                    target="_blank" class="experience">view
+                                                    Certificate</a>
+
+                                                <!-- <img src="./accenture.png" alt="" height="40px" width="200px" style="float: right;"> -->
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Customer Support Executive</strong></h4>
+                                        <ul>
+                                            <li>
+                                                Justdial Ltd <a href="./certificate/jd service.pdf"
+                                                    target="_blank" class="experience">view service letter</a>
+
+                                                <!-- <img src="./accenture.png" alt="" height="40px" width="200px" style="float: right;"> -->
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <hr>
+                                    <li>
+                                        <h4 class="edu_item"><strong>Working on Projects</strong></h4>
+                                        <ul>
+                                            <li>
+                                                Live on Github <a href="https://github.com/Coderhimanshu07"
+                                                    target="_blank" style="float: right; padding-right: 15px;">view Github</a>
+
+                                                <!-- <img src="./accenture.png" alt="" height="40px" width="200px" style="float: right;"> -->
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact us -->
+
+
+
+
+    <div class="Heading">
+        <h2><span>Contact us</span></h2>
+        <p>Have a question or idea? We’re just one message away</p>
+    </div>
+
+    <section id="Contact">
+        <div class="container-fluid pt-3 pb-5" style="background-color: #fff">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-container">
+                            <form id="main_form">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class=" fName border-0 border-bottom p-3" placeholder="First name">
+                                    </div>
+
+                                    <div class="col">
+                                        <input type="text" class="lName border-0 border-bottom p-3" placeholder="Last name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="number" class="num border-0 border-bottom p-3" placeholder="Mobile No."
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="email" class="email border-0 border-bottom p-3 w-100"
+                                            placeholder="Enter your Email " required>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="row">
+                                <div class="col">
+                                    <select class="border-0 border-bottom p-3 w-100">
+                                        <option value="1">Choose any one</option>
+                                        <option value="2">Graphic Design</option>
+                                        <option value="3">Web development</option>
+                                        <option value="4">Data analysis</option>
+                                    </select>
+                                </div>
+                            </div> -->
+
+                                <div class="text-center mt-4">
+                                    <button class="btn btn-success p-2 w-100">Lets start Together !!!</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col image">
+                        <img src="https://tgcdehradun.com/wp-content/uploads/2025/01/contact-us.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="mainbody">
+        <h2 class="pt-5" id="FAQ">FAQ's</h2>
+        <!-- Accordion there -->
+
+        <section>
+            <div class="container-fluid">
+                <div class="container w-75 pt-5" id="acc_example">
+                    <!-- Accordion 1 -->
+                    <div class="accordion">
+                        <div class="accordion-item mb-1">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1"> What services do you offer as a full stack
+                                    developer?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#acc_example">
+                                <div class="accordion-body">
+                                    <strong>I design and develop complete web solutions including frontend, backend,
+                                        databases, and deployment. From simple websites to complex web applications,
+                                        I
+                                        handle everything end-to-end.</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion 2 -->
+                        <div class="accordion">
+                            <div class="accordion-item mb-1">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-target="#collapse2"
+                                        data-bs-toggle="collapse">Do you work with both frontend and backend
+                                        technologies?</button>
+                                </h2>
+
+                                <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#acc_example">
+                                    <div class="accordion-body">
+                                        <strong>Yes! I’m skilled in frontend (HTML, CSS, JavaScript, React, etc.)
+                                            and
+                                            backend (Node.js, Python, PHP, etc.), which allows me to build fully
+                                            functional and scalable applications.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion 3 -->
+
+                        <div class="accordion">
+                            <div class="accordion-item mb-1">
+                                <h2 class="accordion-header fw-4">
+                                    <button class="accordion-button" type="button" data-bs-target="#collapse3"
+                                        data-bs-toggle="collapse">Can you design websites as well as develop
+                                        them?</button>
+                                </h2>
+
+                                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#acc_example">
+                                    <div class="accordion-body">
+                                        <strong>Yes, I provide both design and development. I focus on creating
+                                            modern,
+                                            responsive, and user-friendly designs that align with your
+                                            brand.</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Accordion 4 -->
+
+                        <div class="accordion">
+                            <div class="accordion-item mb-1">
+                                <h2 class="accordion-header fw-4">
+                                    <button class="accordion-button" type="button" data-bs-target="#collapse4"
+                                        data-bs-toggle="collapse">Do you work as a freelancer or with an
+                                        agency/team?</button>
+                                </h2>
+
+                                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#acc_example">
+                                    <div class="accordion-body">
+                                        <strong>I mainly work as an independent freelancer but also collaborate with
+                                            designers, content writers, and other developers when projects require a
+                                            team effort.</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Accordion 5 -->
+
+                        <div class="accordion">
+                            <div class="accordion-item mb-1">
+                                <h2 class="accordion-header fw-4">
+                                    <button class="accordion-button" type="button" data-bs-target="#collapse5"
+                                        data-bs-toggle="collapse">What technologies and frameworks do you use most
+                                        often?</button>
+                                </h2>
+
+                                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#acc_example">
+                                    <div class="accordion-body">
+                                        <strong>I commonly use React, Node.js, Express, MongoDB, MySQL, Python, PHP,
+                                            and
+                                            WordPress, but I’m flexible depending on project requirements.</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Accordion 6 -->
+
+                        <div class="accordion">
+                            <div class="accordion-item mb-1">
+                                <h2 class="accordion-header fw-4">
+                                    <button class="accordion-button" type="button" data-bs-target="#collapse6"
+                                        data-bs-toggle="collapse">Will my website be SEO-friendly and optimized for
+                                        speed?</button>
+                                </h2>
+
+                                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#acc_example">
+                                    <div class="accordion-body">
+                                        <strong>Absolutely. I follow SEO best practices and optimize code, images,
+                                            and
+                                            loading times to make sure your website performs well on search
+                                            engines.</strong>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Accordion 7 -->
+
+                        <div class="accordion pb-5">
+                            <div class="accordion-item mb-1">
+                                <h2 class="accordion-header fw-4">
+                                    <button class="accordion-button" type="button" data-bs-target="#collapse7"
+                                        data-bs-toggle="collapse">How do you ensure the security of my
+                                        website/application?</button>
+                                </h2>
+
+                                <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#acc_example">
+                                    <div class="accordion-body">
+                                        <strong>I use secure coding practices, SSL certificates, regular updates,
+                                            and
+                                            proper authentication methods to keep your website safe.</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    </div>
+
+    <footer>
+        <a id="Copyright" href="#">
+            <p>Made with 💗 by CoderHimanshu </br> Copyright @2025 all rights reserved</p>
+        </a>
+    </footer>
+
+    <script src="./my_resume.js"></script>
+</body>
+
+</html>

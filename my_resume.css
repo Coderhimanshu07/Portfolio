@@ -1,0 +1,536 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px !important;
+}
+
+
+
+#sticky {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000;
+}
+
+/* Home section */
+
+#bodyDIV {
+    background-color: #1e2125;
+    color: white;
+    padding: 4% 4%;
+}
+
+
+/* Typing Effect */
+.dynamic {
+    color: #dc3545;
+    font-weight: bold;
+    border-right: 2px solid #dc3545;
+    /* cursor effect */
+    padding-right: 5px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Intro section CSS */
+.intro-text p {
+    text-align: justify;
+    width: 75%;
+}
+
+.intro-text h3 {
+    font-size: 60px;
+}
+
+#intro-img {
+    border: 5px solid grey;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    object-fit: contain;
+    --bs-gutter-x: 0 !important;
+}
+
+.about-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* main body section */
+.mainbody {
+    background-color: #1e2125;
+    font-size: medium;
+    padding: 20px 4%;
+    height: 100%;
+    width: 100%;
+}
+
+#social {
+    display: flex;
+    gap: 20px;
+}
+
+#GetinTouch {
+    background-color: #1e2125;
+    padding: 0px 4%;
+    padding-bottom: 30px;
+}
+
+/* Features section CSS */
+
+#Features {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+#whatido {
+    color: black;
+    padding-top: 15px;
+}
+
+#whatido h2 {
+    font-weight: 800;
+    font-size: 70px;
+}
+
+#whatido h4 {
+    color: #ff014f;
+}
+
+#whatido span:hover {
+    color: #ff014f;
+    transition: 0.7s ease all;
+}
+
+#cards {
+    display: flex;
+    gap: 70px;
+    padding-top: 45px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.mycard {
+    cursor: pointer;
+    border-radius: 20px 0 !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    /* same as glass-card */
+    transition: transform 0.4s ease, box-shadow 0.4s linear;
+}
+
+.mycard:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    /* hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transform: scale(1.5) ease all;
+    transition: 0.8s ease all;
+}
+
+/* Portfolio section CSS */
+
+/* #PortFolio{
+  padding-top: 70px;
+} */
+
+.Heading {
+    text-align: center;
+    /* margin-bottom: 30px; */
+    background-color: #fff;
+    padding-bottom: 15px;
+}
+
+.Heading h2 {
+    margin-bottom: 0;
+    /* padding-top: 40px; */
+}
+
+.heading2 {
+    background-color: #1e2125;
+
+}
+
+.Heading p {
+    color: grey;
+    margin-bottom: 2px;
+}
+
+.Heading span {
+    font-size: 55px;
+}
+
+.Heading span:hover {
+    color: #ff014f;
+    transition: 0.5s all;
+}
+
+#parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 70px;
+}
+
+.cards {
+    width: 350px;
+    /* border-radius: 25px; */
+    border: 2px solid white;
+    box-shadow: 0px 0px 7px rgb(105, 105, 105);
+    cursor: pointer;
+    height: 450px;
+    border-radius: 25px 0;
+    overflow: hidden;
+}
+
+.cards:hover img {
+    transition: 1.5 ease all;
+    transform: scale(1.2);
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: 2.5s ease all;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aim p {
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.5s ease all;
+    margin-bottom: 0%;
+    margin-top: 50px;
+}
+
+.aim p:hover {
+    color: #ff014f;
+}
+
+/* Footer section CSS */
+footer {
+    height: 13vh;
+    width: 100%;
+    background-color: rgba(35, 39, 42, 9);
+    text-align: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    /* keep text white */
+    text-decoration: none;
+    /* removes underline */
+    transition: 1.2s ease all;
+}
+
+footer a:hover {
+    color: #ff014f;
+    /* optional: lighter on hover */
+    font-size: 18px;
+}
+
+/* Resume section CSS */
+#Resume h2 {
+    text-align: center;
+    font-size: 55px;
+    /* margin-top: 30px; */
+}
+
+#Resume span:hover {
+    color: #ff014f;
+    /* optional: lighter on hover */
+    transition: 0.8s ease all;
+}
+
+#Education {
+    --bs-gutter-x: 20px !important;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+/* .resume-section {
+
+        /* Glass effect card */
+.glass-card {
+    /* background: rgba(255, 255, 255, 0.05); */
+    background-color: white;
+    color: black;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 25px 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+
+    width: 100%;
+    /* full width on small screens */
+    max-width: 600px;
+    /* keep max width for larger screens */
+    min-height: 400px;
+    /* allow height to grow automatically */
+    height: auto;
+    /* make height flexible */
+}
+
+.glass-card h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* 3D hover effect */
+.glass-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card_head {
+    border-radius: 25px 0;
+    border-bottom: none;
+    background-color: black;
+    color: white;
+}
+
+.card_body {
+    padding-top: 15px;
+}
+
+.Skills_li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Skills_li li {
+    flex: 1 1 45%;
+    padding-bottom: 2px;
+}
+
+.experience {
+    float: right;
+    padding-right: 15px;
+}
+
+.form-container,
+select {
+    background-color: #dff0df;
+    padding: 80px 20px;
+}
+
+.form-container input {
+    background: transparent;
+}
+
+.form-container input:focus {
+    outline: 0;
+}
+
+#Contact h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* FAQ's section CSS */
+#FAQ {
+    color: #ff014f;
+    font-weight: 150px;
+    font-size: 70px;
+    text-align: center;
+
+    width: 100%;
+    /* or set custom like 80%, 600px, etc. */
+    max-width: 900px;
+    /* optional: keep it from being too wide */
+    height: auto;
+    /* keeps the same height based on content */
+    margin: 0px auto;
+}
+
+.red-text {
+    color: #ff014f;
+}
+
+/* Media query */
+
+/* @media screen and (max-width: 992px) {
+   nav{  /* Replace .navbar with the actual class or ID of your navbar */
+/* display: none !important; */
+/* }
+} */
+
+/* Default (desktop/laptop) → your current layout works fine */
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    #bodyDIV .row {
+        flex-direction: column-reverse;
+        /* stack text + image vertically */
+        text-align: center;
+        align-items: center;
+        /* center align content */
+    }
+
+    #bodyDIV .intro-text,
+    #bodyDIV {
+        width: 100% !important;
+        /* make both full width */
+        max-width: 100%;
+    }
+
+    #bodyDIV .intro-text h2,
+    #bodyDIV .intro-text h3 {
+        text-align: center;
+        /* headings center aligned */
+    }
+
+    #bodyDIV .intro-text div {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #bodyDIV .intro-img {
+        margin-top: 20px;
+        /* add gap between text and image */
+        height: auto;
+        /* make image box height flexible */
+        padding: 0;
+    }
+
+    #bodyDIV .intro-img h1 {
+        font-size: 24px;
+    }
+
+    #bodyDIV h3 {
+        font-size: 1.8rem;
+        /* smaller heading on mobile */
+    }
+
+    .my_world h2 {
+        /* text-align: left !important; */
+        font-size: 15px !important;
+    }
+
+    .dynamic {
+        font-size: 2.2rem !important;
+    }
+
+    .intro-text p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .intro-text h3 {
+        margin-top: 15px;
+        /* text-align: left !important; */
+        font-size: 35px !important;
+    }
+
+    /* Additional media query added for the image */
+    .image-container {
+        max-width: 200px;
+        /* fixed size on smaller screens */
+    }
+
+    #my_image {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .intro-img {
+        height: 400px;
+        width: 400px;
+        border: 5px solid grey;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 80%;
+    }
+
+    #acc_example {
+        width: 100% !important;
+    }
+
+    /* Contact form Css there */
+
+    .image {
+        display: none;
+    }
+}
+
+
+
+/* responsive for glass-card */
+
+@media (max-width: 768px) {
+    .glass-card {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .glass-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .Skills_li li {
+        flex: 1 1 100%;
+        /* one item per row if very narrow */
+    }
+
+    .glass-card {
+        width: 100%;
+        /* full width on small screens */
+        max-width: 600px;
+        /* keep max width for larger screens */
+        min-height: 400px;
+        /* allow height to grow automatically */
+        height: auto;
+        /* make height flexible */
+    }
+
+    .experience {
+        padding-right: 0;
+
+    }
+}
